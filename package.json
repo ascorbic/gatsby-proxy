@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "3.11.0",
+    "gatsby": "^3.13.1",
     "gatsby-plugin-netlify": "^3.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
