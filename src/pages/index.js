@@ -48,7 +48,7 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <a
             style={linkStyle}
-            href="/reverse-proxy-basepath"
+            href="/docs"
           >
             Go To NextJS App
           </a>
