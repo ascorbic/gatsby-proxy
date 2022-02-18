@@ -10,4 +10,16 @@ exports.createPages = async ({ actions: { createRedirect } }) => {
     toPath: 'https://deploy-preview-1213--netlify-plugin-nextjs-basepath-demo.netlify.app/docs/:splat',
     statusCode: 200,
   });
+
+  createRedirect({
+    fromPath: '/not-docs',
+    toPath: 'https://deploy-preview-1213--netlify-plugin-nextjs-basepath-demo.netlify.app/docs/',
+    statusCode: 200,
+  });
+
+  createRedirect({
+    fromPath: '/not-docs/*',
+    toPath: 'https://deploy-preview-1213--netlify-plugin-nextjs-basepath-demo.netlify.app/docs/:splat',
+    statusCode: 200,
+  });
 };
